@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ink & Bone – Estudio de Tatuajes</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <span class="logo">INK & BONE</span>
+      <nav class="nav">
+        <ul>
+          <li><a href="#estilos">Estilos</a></li>
+          <li><a href="#artistas">Artistas</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#estilos" class="mob-link">Estilos</a></li>
+        <li><a href="#artistas" class="mob-link">Artistas</a></li>
+        <li><a href="#galeria" class="mob-link">Galería</a></li>
+        <li><a href="#precios" class="mob-link">Precios</a></li>
+        <li><a href="#contacto" class="mob-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <!-- IMAGEN HERO: reemplaza "tu-imagen.jpg" con el nombre de tu archivo -->
+      <img src="assets/images/tu-imagen.jpg" alt="Tatuaje" class="hero-img" />
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Estudio de Tatuajes · Barranquilla</p>
+        <h1>Tu piel,<br />nuestra obra.</h1>
+        <p class="hero-sub">Arte permanente hecho con precisión, pasión y respeto por tu historia.</p>
+        <a href="#contacto" class="btn">Reserva tu cita</a>
+      </div>
+    </section>
+
+    <!-- ESTILOS -->
+    <section class="section" id="estilos">
+      <div class="container">
+        <h2>Nuestros Estilos</h2>
+        <p class="muted">Especializados en múltiples técnicas para que encuentres la que te define.</p>
+        <ul class="estilos-list">
+          <li>Blackwork & Linework</li>
+          <li>Realismo</li>
+          <li>Acuarela</li>
+          <li>Geométrico</li>
+          <li>Tradicional</li>
+          <li>Minimalismo</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ARTISTAS -->
+    <section class="section section-alt" id="artistas">
+      <div class="container">
+        <h2>Artistas</h2>
+        <p class="muted">Cada artista tiene su propia voz. Encuentra la tuya.</p>
+
+        <div class="artistas-grid">
+
+          <article class="artista-card">
+            <!-- IMAGEN ARTISTA 1: reemplaza "tu-imagen.jpg" -->
+            <img src="assets/images/tatuador1.jpg" alt="Tatuaje Carlos" />
+            <div class="artista-info">
+              <h3>Carlos Mendoza</h3>
+              <p>Realismo & Blackwork · 8 años de experiencia</p>
+            </div>
+          </article>
+
+          <article class="artista-card">
+            <!-- IMAGEN ARTISTA 2: reemplaza "tu-imagen.jpg" -->
+            <img src="assets/images/tatuadora2.jpg" alt="Tatuaje Valeria" />
+            <div class="artista-info">
+              <h3>Valeria Torres</h3>
+              <p>Acuarela & Geométrico · 6 años de experiencia</p>
+            </div>
+          </article>
+
+          <article class="artista-card">
+            <!-- IMAGEN ARTISTA 3: reemplaza "tu-imagen.jpg" -->
+            <img src="assets/images/tatuador3.jpg" alt="Tatuaje Diego" />
+            <div class="artista-info">
+              <h3>Diego Ríos</h3>
+              <p>Tradicional & Minimalismo · 5 años de experiencia</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <h2>Galería</h2>
+        <p class="muted">Trabajo real, clientes reales.</p>
+
+        <div class="galeria-grid">
+          <!-- IMAGEN GALERÍA 1 (ocupa 2 filas de alto): reemplaza "tu-imagen.jpg" -->
+          <img src="assets/images/tatuaje1.jpg" alt="Tatuaje 1" class="gal-tall" />
+          <!-- IMAGEN GALERÍA 2: reemplaza "tu-imagen.jpg" -->
+          <img src="assets/images/tatuaje2.jpg" alt="Tatuaje 2" />
+          <!-- IMAGEN GALERÍA 3: reemplaza "tu-imagen.jpg" -->
+          <img src="assets/images/tatuaje3.jpg" alt="Tatuaje 3" />
+          <!-- IMAGEN GALERÍA 4: reemplaza "tu-imagen.jpg" -->
+          <img src="assets/images/tatuaje4.jpg" alt="Tatuaje 4" />
+          <!-- IMAGEN GALERÍA 5 (ocupa 2 columnas de ancho): reemplaza "tu-imagen.jpg" -->
+          <img src="assets/images/tatuaje5.jpg" alt="Tatuaje 5" class="gal-wide" />
+          <!-- IMAGEN GALERÍA 6: reemplaza "tu-imagen.jpg" -->
+          <img src="assets/images/tatuaje6.jpg" alt="Tatuaje 6" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section class="section section-alt" id="precios">
+      <div class="container">
+        <h2>Precios</h2>
+        <p class="muted">Cotización final según tamaño, detalle y zona del cuerpo.</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Tamaño</th>
+                <th>Estilo</th>
+                <th>Tiempo estimado</th>
+                <th>Precio desde</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pequeño (hasta 5 cm)</td>
+                <td>Minimalismo / Linework</td>
+                <td>1 – 2 horas</td>
+                <td>$150.000 COP</td>
+              </tr>
+              <tr>
+                <td>Mediano (5 – 15 cm)</td>
+                <td>Tradicional / Acuarela</td>
+                <td>2 – 4 horas</td>
+                <td>$350.000 COP</td>
+              </tr>
+              <tr>
+                <td>Grande (15 – 30 cm)</td>
+                <td>Realismo / Blackwork</td>
+                <td>4 – 8 horas</td>
+                <td>$700.000 COP</td>
+              </tr>
+              <tr>
+                <td>Full sleeve</td>
+                <td>Todos</td>
+                <td>Múltiples sesiones</td>
+                <td>Cotización personalizada</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <span class="logo">INK & BONE</span>
+        <p>Arte permanente en Barranquilla, Colombia.</p>
+        <div class="social">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Estudio</h4>
+        <ul>
+          <li><a href="#estilos">Estilos</a></li>
+          <li><a href="#artistas">Artistas</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#precios">Precios</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Ubicación</h4>
+        <ul>
+          <li>Calle 72 # 45 - 18</li>
+          <li>Barranquilla, Colombia</li>
+          <li>Lun – Sáb: 10am – 7pm</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Reservas</h4>
+        <p>Escríbenos para agendar tu consulta gratuita.</p>
+        <a href="mailto:hola@inkandbone.co" class="btn">hola@inkandbone.co</a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Ink & Bone. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('hamburger');
+    const nav = document.getElementById('mobileNav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+    document.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', () => nav.classList.remove('open')));
+    window.addEventListener('scroll', () => document.getElementById('header').classList.toggle('scrolled', scrollY > 50));
+  </script>
+
+</body>
+</html>
